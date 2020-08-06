@@ -3,11 +3,29 @@ Microsoft patterns & practices
 
 This reference implementation shows a set of best practices for building and running a microservices architecture on Microsoft Azure, using Kubernetes.
 
+|                                         | [Basic](https://github.com/mspnp/microservices-reference-implementation/tree/basic) | [Advanced](https://github.com/mspnp/microservices-reference-implementation/) |
+|-----------------------------------------|-------|----------|
+| Distributed Monitoring                  |  ✅   |    ✅    |
+| Ingress Controller                      |  ✅   |    ✅    |
+| Azure Active Directory Pod Identity     |  ✅   |    ✅    |
+| CI/CD using Azure Pipelines             |  ✅   |    ✅    |
+| Helm charts                             |  ✅   |    ✅    |
+| Resource Limits                         |  ✅   |    ✅    |
+| Readiness/Liveness Probes               |  ✅   |    ✅    |
+| Horizontal Pod Autoscaling              |  ❌   |    ✅    |
+| Cluster Autoscaling                     |  ❌   |    ✅    |
+| Advanced Networking                     |  ❌   |    ✅    |
+| Service Endpoints                       |  ❌   |    ✅    |
+| Network Policies                        |  ❌   |    ✅    |
+| Egress restriction using Azure Firewall |  ❌   |    ✅    |
+
 ## Guidance
 
 This project has a companion set of articles that describe challenges, design patterns, and best practices for building microservices architecture. You can find these articles on the Azure Architecture Center:
 
 - [Designing, building, and operating microservices on Azure with Kubernetes](https://docs.microsoft.com/azure/architecture/microservices)
+- [Microservices architecture on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/architecture/reference-architectures/microservices/aks)
+- [Building a CI/CD pipeline for microservices on Kubernetes](https://docs.microsoft.com/azure/architecture/microservices/ci-cd-kubernetes)
 
 ## Scenario
 
